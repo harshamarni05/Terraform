@@ -25,3 +25,9 @@ variable "environment" {
   type        = string
   default     = "dev"
 }
+
+variable "alert_email" {
+  description = "Email address to receive SNS notifications"
+  type        = string
+  default     = "saisriharshavardhan@gmail.com"
+}
