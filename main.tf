@@ -3,6 +3,6 @@ resource "aws_instance" "my_server" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "my-first-server"
+    Name = "webhook-test-server"
   }
 }
