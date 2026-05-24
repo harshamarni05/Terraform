@@ -16,7 +16,7 @@ variable "instance_type" {
 variable "bucket_name" {
   description = "Name of the S3 bucket"
   type        = string
-  default     = "my-terraform-bucket-harshamarni-2026"
+  default     = "my-terraform-bucket-harshamarni"
 }
 
 # The environment name — dev, staging, prod
